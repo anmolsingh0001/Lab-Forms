@@ -13,6 +13,70 @@
   }
 }
 
+.input{
+  display: flex;
+  justify-content: center;
+}
+
+.inputpass{
+  display: flex;
+  justify-content: center;
+}
+
+.inputpass2{
+  width: 19vw;
+}
+
+body{
+  background-image: url("https://cbseacademic.nic.in/library/COLLECTIONS.JPG");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.main2{
+  background-color: gold;
+  height: 100vh;
+  width: 40vw;
+  margin-top: 0%;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+#pass{
+  height: 1vh;
+  margin-top: 0.3rem;
+  cursor: pointer;
+  margin-right: 5px;
+  }
+
+button{
+  height: 5vh;
+  width: 20vw;
+  background-color: green;
+  color: white;
+  border: 0px;
+  text-align: center;
+}
+
+::placeholder{
+  text-align: left;
+  font-size: 17px;
+}
+
+input{
+  height: 5vh;
+    border-radius: 0.5rem;
+    width: 20vw;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +87,40 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@media screen and (max-width: 600px){
+  .main2{
+    height: 100vh;
+    width: 100vh;
+    margin-top: 0px;
+  }
+  input{
+    height: 5vh;
+    width: 70vw;
+    border-radius: 0.3rem;
+  }
+}
+
+
+@media screen and (max-width: 900px){
+  .main2{
+    height: 100vh;
+    width: 100vh;
+    margin-top: 0px;
+  }
+  input{
+    height: 5vh;
+    width: 70vw;
+    border-radius: 0.3rem;
+  }
+  .inputpass2{
+    width: 67vw;
+  }
+}
+
+
+
+
 
 .App-link {
   color: #61dafb;
